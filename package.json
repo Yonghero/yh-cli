@@ -1,0 +1,31 @@
+{
+  "name": "yh-cli",
+  "version": "1.0.0",
+  "description": "A cli tool for hitotek that front-end",
+  "scripts": {
+    "lint": "eslint --ext .js --fix bin && eslint --ext .js --fix src"
+  },
+  "bin": {
+    "yh": "./bin/setup.js"
+  },
+  "keywords": [
+    "front-end",
+    "cli",
+    "hitotek"
+  ],
+  "author": "younghero",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^10.0.1",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.21.3",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "prettier": "^2.8.7"
+  }
+}
