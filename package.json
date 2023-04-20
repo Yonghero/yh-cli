@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "A cli tool for hitotek that front-end",
   "scripts": {
-    "lint": "eslint --ext .js --fix bin && eslint --ext .js --fix src"
+    "lint": "eslint --ext .js --fix bin && eslint --ext .js --fix src",
+    "publish": "npm publish --access public"
   },
   "bin": {
     "yh": "./bin/setup.js"
