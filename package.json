@@ -1,5 +1,5 @@
 {
-  "name": "yh-cli",
+  "name": "@hitotek/yh-cli",
   "version": "1.0.0",
   "description": "A cli tool for hitotek that front-end",
   "scripts": {
