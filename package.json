@@ -1,6 +1,6 @@
 {
   "name": "@hitotek/yh-cli",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A cli tool for hitotek that front-end",
   "scripts": {
     "lint": "eslint --ext .js --fix bin && eslint --ext .js --fix src",
