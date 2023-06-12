@@ -4,7 +4,7 @@
   "description": "A cli tool for hitotek that front-end",
   "scripts": {
     "lint": "eslint --ext .js --fix bin && eslint --ext .js --fix src",
-    "publish": "npm publish --access public"
+    "publish": "npm version patch && npm publish --access public --force"
   },
   "bin": {
     "yh": "./bin/setup.js"
