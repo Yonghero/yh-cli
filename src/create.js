@@ -14,7 +14,8 @@ module.exports = async function create (projectName, options) {
       type: "list",
       message: "Please choose a template",
       choices: [
-        { name: 'vue3 + ts', value: 0 }
+        { name: 'vue3 + ts', value: 0 },
+        { name: 'no-layout-vue3base-tailwind-fuzzynext', value: 1 },
       ],
     },
   ])
